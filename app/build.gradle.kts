@@ -7,6 +7,11 @@ android {
     namespace = "com.example.kotlinodev5hesapmakinesi"
     compileSdk = 35
 
+    buildFeatures {
+        viewBinding = true
+    }
+
+
     defaultConfig {
         applicationId = "com.example.kotlinodev5hesapmakinesi"
         minSdk = 24
